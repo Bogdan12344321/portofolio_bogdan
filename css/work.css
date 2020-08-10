@@ -36,10 +36,12 @@
 
 .img-2 {
     background: url('../images/tbh.png') no-repeat center center/cover;
+    color: white;
 }
 
 .img-3 {
     background: url('../images/edger_ledger.png') no-repeat center center/cover;
+    color: white;
 }
 
 .content-info .my-work{
