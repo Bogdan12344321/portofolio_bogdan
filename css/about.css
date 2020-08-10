@@ -5,6 +5,30 @@
 }
 
 
+.color-cyberghost {
+    color: white;
+    background-color: #dcbf00;
+    /* border-radius: 20px; */
+}
+
+.color-doraly {
+    color: white;
+    background-color: #ff0000;
+    /* border-radius: 20px; */
+}
+
+.color-roweb {
+    color: white;
+    background-color: #0e5c98;
+    /* border-radius: 20px; */
+}
+
+.color-iquest {
+    color: white;
+    background-color: #0ea7e9;
+    /* border-radius: 20px; */
+}
+
 .header {
     background: url('../images/about_2.jpg') no-repeat center center/cover !important;
 }
@@ -26,6 +50,7 @@
 
 .content-info .show-info .info {
     padding: 100px;
+    width: 1200px;
 }
 
 .content-info .show-info .info p{
@@ -38,7 +63,7 @@
 }
 
 .content-info .my-info{
-    border-radius: 40px;
+    /* border-radius: 40px; */
     padding: 50px;
     margin: 100px;
     line-height: 3rem;
@@ -49,10 +74,30 @@
 }
 
 @media(max-width:768px){
+
+    .content-info .my-info{
+        line-height: 2rem;
+        padding:0;
+        margin: 40px;
+    }
+
+    .content-info .my-info h2{
+        font-size: 20px;
+    }
     .content-info img {
         max-height: 200px;
         max-width: 300px;
-        /* float:left; */
+    }
+
+    .content-info .show-info .info{
+        /* margin: 10px; */
+        padding: 20px 10px;
+        /* border-radius: 20px; */
+        width: 100%;
+    }
+
+    .content-info .show-info .info h1{
+        font-size:20px;
     }
     
 }
