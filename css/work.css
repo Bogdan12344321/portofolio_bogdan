@@ -1,0 +1,107 @@
+.header {
+    background: url('../images/work.jpg') no-repeat center center/cover !important;
+}
+
+.btn {
+    display: inline-block;
+    border:none;
+    background: #6898F9;
+    color:#fff;
+    padding:0.75rem 1.5rem;
+    margin-top:1rem;
+    transition:all 1s ease-in-out;
+    text-decoration: none;
+    margin:0px auto;
+}
+
+
+.btn:hover{
+    opacity: 0.7s;
+    padding:30px 40px;
+}
+
+/* Work Div */
+
+.content-info{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-1 {
+    background: url('../images/burger-app.png') no-repeat center center/cover;
+}
+
+.img-2 {
+    background: url('../images/tbh.png') no-repeat center center/cover;
+}
+
+.img-3 {
+    background: url('../images/edger_ledger.png') no-repeat center center/cover;
+}
+
+.content-info .my-work{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 900px;
+    height: 400px;
+    transition:all 0.4s ease-in-out;
+    /* background: url('../images/burger-app.png') no-repeat center center/cover; */
+    cursor:pointer;
+}
+
+.content-info .my-work:hover{
+    width: 950px;
+    height: 450px;
+    opacity: 0.4;
+}
+
+.content-info .my-work h1{
+   padding:10px;
+   float:left;
+   font-size: 90px;
+}
+
+.content-info .my-work h2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.left {
+    margin-left:200px;
+}
+
+.right {
+    margin-right:200px;
+}
+
+
+@media(max-width:768px){
+    .content-info .my-work {
+        width: 350px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        margin-left:0;
+    }
+    
+    .right {
+        margin-right:0;
+    }
+
+    .content-info .my-work:hover{
+        width: 360px;
+        height: 310px;
+        opacity: 0.7;
+    }
+
+}
